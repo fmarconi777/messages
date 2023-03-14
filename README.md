@@ -11,7 +11,7 @@
 
 ## Description
 
-Projeto criado a dar início ao estudo do framework NestJs. 
+Projeto criado para dar início ao estudo do framework NestJs. 
 <br>
 O projeto proposto é uma API simples que armazena mensagens em um arquivo JSON com id aleatório.
 
