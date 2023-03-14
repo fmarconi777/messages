@@ -4,7 +4,7 @@ import { MessagesService } from './messages.service'
 
 @Controller('messages')
 export class MessagesController {
-    constructor(private readonly messagesService: MessagesService = new MessagesService()) {}
+    constructor(private readonly messagesService: MessagesService) {}
 
     @Get()
     async listMessages<T>(): Promise<T[]> {
